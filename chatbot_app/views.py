@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 #from django.template import RequestContext
 #from django.shortcuts import render_to_response
-openai.api_key = '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'
+openai.api_key = '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'
 
 def chatbot(request):
     if request.method == 'POST':
